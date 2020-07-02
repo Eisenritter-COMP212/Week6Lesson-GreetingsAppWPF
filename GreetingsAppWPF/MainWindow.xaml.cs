@@ -24,5 +24,10 @@ namespace GreetingsAppWPF
         {
             InitializeComponent();
         }
+
+        private void btnHello_Click(object sender, RoutedEventArgs e)
+        {
+            txtBlkOutput.Text = $"Welcome {txtName.Text}";
+        }
     }
 }

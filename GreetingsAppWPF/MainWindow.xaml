@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="label" Content="Welcome to WPF Programming" HorizontalAlignment="Left" Margin="300,100,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.919,0.959"/>
+        <Button x:Name="btnHello" Content="Button" HorizontalAlignment="Center" VerticalAlignment="Center" Width="402" Height="86" Click="btnHello_Click"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" Margin="196,139,0,0" TextWrapping="Wrap" Text="Enter Your Name Here" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.485,1.739"/>
+        <TextBlock x:Name="txtBlkOutput" HorizontalAlignment="Left" Margin="196,276,0,0" TextWrapping="Wrap" Text="Output Displayed Here" VerticalAlignment="Top" Height="67" Width="402"/>
+
     </Grid>
 </Window>
